@@ -1,10 +1,14 @@
 {
-  "name": "ra_word_counter",
+  "name": "raa_word_counter",
   "version": "1.0.0",
   "description": "an application which can count the words in a sentence",
   "main": "index.js",
   "type": "module",
-  "publishConfig": {},
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
